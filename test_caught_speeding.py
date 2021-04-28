@@ -1,24 +1,19 @@
 #!/usr/bin/env python
 
 """
-test code for the walnut party example
 
-Adapted from the "coding bat" site: https://codingbat.com/prob/p137202
+Objective of Code:
+You are driving a little too fast, and a police officer stops you. Write code to compute the result,
+encoded as an int value: 0=no ticket, 1=small ticket, 2=big ticket. If speed is 60 or less, the result is 0.
+If speed is between 61 and 80 inclusive, the result is 1. If speed is 81 or more,
+the result is 2. Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.
 
-When squirrels get together for a party, they like to have walnuts.
-A squirrel party is successful when the number of walnuts is between
-40 and 60, inclusive. Unless it is the weekend, in which case there
-is no upper bound on the number of walnuts.
 
-Return True if the party with the given values is successful,
-or False otherwise.
+The Test Cases here have been derived from the Source from: https://codingbat.com/prob/p137202 exercise.
+
 """
 
-
-# you can change this import to test different versions
 from caught_speeding import caught_speeding
-# from walnut_party import walnut_party2 as walnut_party
-# from walnut_party import walnut_party3 as walnut_party
 
 
 def test_1():
